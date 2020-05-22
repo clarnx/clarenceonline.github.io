@@ -1,0 +1,142 @@
+header {
+  background-image: url(../images/ca-bg.png);
+}
+
+.main-profile-pic {
+  width: 150px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+.main-profile-pic:hover {
+  transform: scale(1.2);
+}
+
+header .fa {
+  font-size: 30px;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: #9768d1;
+}
+
+a:hover {
+  color: #a2d168;
+}
+
+hr {
+  margin-bottom: 32px;
+}
+
+#card-1, #card-2, #card-3 {
+  border-bottom: 3px solid lightgray;
+}
+
+#card-1:hover, #card-2:hover, #card-3:hover {
+  border-bottom: 3px solid #a2d168;
+}
+
+h2, .h4 {
+  color: #9768d1;
+}
+
+a img {
+  transition: all .5s;
+}
+
+a img:hover {
+  transform: scale(1.04);
+}
+
+#skill-html-bg-color {
+  background: #52489C;
+}
+
+#skill-css-bg-color {
+  background: #2B64F1;
+}
+
+#skill-javascript-bg-color {
+  background: #F7DF1E;
+  color: #000000 !important;
+}
+
+#skill-nodejs-bg-color {
+  background: #6CC24A;
+  color: #000000 !important;
+}
+
+#skill-react-bg-color {
+  background: #00D8FF;
+  color: #000000 !important;
+}
+
+#skill-nextjs-bg-color {
+  background: #111111;
+}
+
+#skill-mongodb-bg-color {
+  background: #589636;
+}
+
+#skill-bootstrap-bg-color {
+  background: #7952b3;
+}
+
+#skill-wordpress-bg-color {
+  background: #BDC2BF;
+  color: #000000 !important;
+}
+
+#skill-linux-bg-color {
+  background: #75B9BE;
+  color: #000000 !important;
+}
+
+#skill-Apache-bg-color {
+  background: #4C191B;
+}
+
+#skill-nginx-bg-color {
+  background: #009639;
+}
+
+#skill-git-bg-color {
+  background: #1E1E24;
+}
+
+#skill-sql-bg-color {
+  background: #FF6978;
+}
+
+#skill-seo-bg-color {
+  background: #D68FD6;
+}
+
+#skill-camtasia-bg-color {
+  background: #7AC74F;
+  color: #000000 !important;
+}
+
+footer .fa {
+  font-size: 25px;
+  color: #9768d1;
+}
+
+footer a:hover .fa {
+  color: #868e96;
+}
+
+/* Styles for Mobile large screens */
+@media screen and (max-width: 767px) {
+  hr {
+    margin: 32px 0;
+  }
+}
