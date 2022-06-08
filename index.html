@@ -1,448 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Welcome To Clarence's Profile</title>
-    <!-- Bootstrap CSS -->
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
 
-    <!-- CoreUI Icons -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@coreui/icons/css/all.min.css"
-    />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/7b6a287b3b.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--TypeIt Js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.2.0/typeit.min.js"></script>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Welcome To Clarence's Profile</title>
+  <!-- Bootstrap CSS -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <header class="bd-pageheader container-fluid mb-4 text-white">
-      <div class="container py-4 text-center">
-        <img
-          src="./images/clarence_profile_picture.jpg"
-          alt="Clarence's Profile Picture"
-          class="main-profile-pic mb-2"
-        />
+  <!-- CoreUI Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/all.min.css" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7b6a287b3b.js" crossorigin="anonymous"></script>
+  <!--TypeIt Js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.2.0/typeit.min.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-        <!--Header 1 with Typing Effect-->
-        <!-- <h1 id="typing-effect" class="display-5">Hello, I'm Clarence<span class="text-muted"></span>.</h1> -->
-        <h1 id="typing-effect" class="display-5">Hello, I'm Clarence.</h1>
+<body>
+  <header class="bd-pageheader container-fluid mb-4 text-white">
+    <div class="container py-4 text-center">
+      <img src="./images/clarence_profile_picture.jpg" alt="Clarence's Profile Picture" class="main-profile-pic mb-2" />
 
+      <!--Header 1 with Typing Effect-->
+      <!-- <h1 id="typing-effect" class="display-5">Hello, I'm Clarence<span class="text-muted"></span>.</h1> -->
+      <h1 id="typing-effect" class="display-5">Hello, I'm Clarence.</h1>
+
+      <script>
+        new TypeIt("#typing-effect", {
+          speed: 80,
+          autoStart: false,
+        });
+      </script>
+
+      <p class="lead mb-0">
+        <span class="fw-bold">Web</span><small> Developer</small> &sol;
+        <span class="fw-bold">Linux</span><small> Admin</small>
+      </p>
+
+      <!-- Web Links -->
+      <span class="text-center text-muted mt-4">
+        <div class="py-2">
+          <a href="https://github.com/clarnx" target="_blank">
+            <i class="fab fa-github mx-2 fa-lg"></i>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCrJuJ4Z9J-FuzYf4TyMOg7w" target="_blank">
+            <i class="fab fa-youtube mx-2 fa-lg"></i>
+          </a>
+
+          <a href="https://www.udemy.com/user/devdigest/" target="_blank">
+            <i class="cib-udemy mx-2 fa-lg"></i>
+          </a>
+
+          <a href="https://www.instagram.com/devdigest/" target="_blank">
+            <i class="fab fa-instagram mx-2 fa-lg"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/clarence-online/" target="_blank">
+            <i class="fab fa-linkedin mx-2 fa-lg"></i>
+          </a>
+        </div>
+      </span>
+
+      <i class="fa fa-arrow-circle-down mt-3 mb-0"></i>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="row">
+      <!-- Start of Main First Row -->
+
+      <!-- First Column (card-1) -->
+      <div id="card-1" class="col-md-5 col-sm-12 my-4 mx-auto bg-white rounded">
+        <div class="p-4">
+          <h2 class="h4 fw-bold mb-3">Background</h2>
+
+          <p>
+            I'm an aspiring Full Stack Web Developer who loves everything
+            about the web and technology.
+          </p>
+          <p>
+            I've worked as a Data Entry Intern and Customer Service Technical
+            Support &amp; Sales. Currently a Freelance Web Developer, I.T
+            Officer, and an Online Content Creator for
+            <a href="https://linktr.ee/devdigest" target="_blank">devDigest Tutorials</a>
+            (<a href="https://www.youtube.com/channel/UCrJuJ4Z9J-FuzYf4TyMOg7w" target="_blank">YouTube</a>
+            &vert;
+            <a href="https://www.udemy.com/user/devdigest/" target="_blank">Udemy</a>
+            &vert;
+            <a href="https://www.instagram.com/devdigest/" target="_blank">Instagram</a>)
+          </p>
+
+          <p>
+            I'm a life-long learner who's always interested in expanding my
+            skills and excited to bring my life experiences to the process of
+            building minimalist and fantastic looking websites
+          </p>
+
+          <p>
+            My goal! is to increase my knowledge and improve my existing
+            skills and use it to build cross-platform applications with Google
+            Flutter.
+          </p>
+
+          <p class="small">
+            CompTIA Linux+ Certified &amp; Linux Professional Institute
+            (LPIC-1) Certified.
+          </p>
+        </div>
+      </div>
+
+      <!-- Second Column (card-2)-->
+      <div id="card-2" class="col-md-5 col-sm-12 my-4 mx-auto bg-white rounded">
+        <div class="p-4">
+          <h2 class="h4 fw-bold mb-3">Skills</h2>
+
+          <p>
+            I currently have abilities, knowledge and technical skills
+            in&colon;
+          </p>
+
+          <ul class="list-inline">
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-html-bg-color">
+              HTML
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-css-bg-color">
+              CSS
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-javascript-bg-color">
+              JavaScript
+            </li>
+            <li style="background-color: #3178c6" class="list-inline-item rounded p-2 text-white my-2">
+              Typescript
+            </li>
+            <li class="list-inline-item rounded p-2 bg-dark text-white my-2">
+              Deno.js
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-nodejs-bg-color">
+              Node.js
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-react-bg-color">
+              React
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-nextjs-bg-color">
+              Next.js
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-mongodb-bg-color">
+              Mongo DB
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-bootstrap-bg-color">
+              Bootstrap
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-wordpress-bg-color">
+              Wordpress
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-linux-bg-color">
+              Linux
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-Apache-bg-color">
+              Apache
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-nginx-bg-color">
+              Nginx
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-git-bg-color">
+              Git
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-sql-bg-color">
+              SQL
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-seo-bg-color">
+              SEO
+            </li>
+            <li class="list-inline-item rounded p-2 text-white my-2" id="skill-camtasia-bg-color">
+              Camtasia Studio
+            </li>
+          </ul>
+
+          <p>
+            I want to master the process of building complex web applications
+            by improving skills in
+            <span class="text-muted">MongoDB, Express JS, React, Node JS, and JavaScript</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Main First Row -->
+
+    <div class="row">
+      <!-- Start of Main Second Row -->
+
+      <!-- One Column (card-3)-->
+      <div id="card-3" class="col-sm-12 col-md-11 my-4 mx-auto bg-white rounded">
+        <div class="p-4">
+          <h2 class="h4 fw-bold mb-3">Repos:</h2>
+          <ul class="list-group list-group-flush mb-5">
+            <li class="list-group-item">
+              <span class="me-2">💽</span>
+              <a href="https://github.com/clarnx/transpilyzer-online-repl" target="_blank">transpilyzer-online-repl</a>
+              An online REPL based on Babel for transpiling next generation
+              JavaScript in real-time
+            </li>
+            <li class="list-group-item">
+              <span class="me-3">🔋</span>
+              <a class="me-1" href="https://github.com/clarnx/hubtel-sms-nodejs-v1"
+                target="_blank">hubtel-sms-nodejs-v1</a>
+              An open source Node.js SDK that allows you to access the Hubtel
+              Programmable SMS API from your Node.js application.
+            </li>
+            <li class="list-group-item">
+              <span class="me-2">⚡</span>
+              <a class="me-1" href="https://github.com/clarnx?tab=repositories" target="_blank">more...</a>
+            </li>
+          </ul>
+          <h2 class="h4 fw-bold mb-3">Cool Web Projects:</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="me-1" href="https://358bull.community/" target="_blank">358bull Community</a>
+              An NTF project website.
+            </li>
+            <li class="list-group-item">
+              <a class="me-1" href="https://www.aletheastudios.com/" target="_blank">Alethea Studios</a>
+              A digital marketing website.
+            </li>
+            <li class="list-group-item">
+              <a class="me-1" href="https://crikstudios.com/" target="_blank">Crik Studios</a>
+              A media studio website.
+            </li>
+            <li class="list-group-item">
+              <a class="me-1" href="https://www.freshinternationalmarine.com/" target="_blank">Fresh International
+                Marine</a>
+              A logistics company website.
+            </li>
+            <li class="list-group-item">
+              <a class="me-1" href="https://chart.orientanalytics.com/" target="_blank">Soundcloud Artists Followers
+                Chart</a>
+              A dashboard utility that displays a realtime chart of SoundCloud
+              Artists Followers.
+            </li>
+            <li class="list-group-item">
+              <a class="me-1" href="https://www.smarttouchtyping.com/" target="_blank">Smart Touch Typing</a>
+              A touch typing resource website for beginners.
+            </li>
+          </ul>
+        </div>
+        <!-- End of all content wraped in div for padding -->
+      </div>
+      <!-- End of One Column (card-3)-->
+    </div>
+    <!-- End of Main Second Row -->
+  </main>
+
+  <footer class="text-center text-muted mt-4">
+    <div class="py-2">
+      <a href="https://clarenceonline.github.io" target="_blank">
+        <i class="fas fa-globe-americas mx-2 fa-lg"></i>
+      </a>
+      <p class="my-0">
+        &copy;
         <script>
-          new TypeIt("#typing-effect", {
-            speed: 80,
-            autoStart: false,
-          });
+          document.write(new Date().getFullYear());
         </script>
+        , A.E Clarence
+      </p>
+      <small>
+        <em class="my-0">"Amor fati"</em>
+      </small>
+    </div>
+  </footer>
 
-        <p class="lead mb-0">
-          <span class="fw-bold">Web</span><small> Developer</small> &sol;
-          <span class="fw-bold">Linux</span><small> Admin</small>
-        </p>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
-        <!-- Web Links -->
-        <span class="text-center text-muted mt-4">
-          <div class="py-2">
-            <a href="https://github.com/clarnx" target="_blank">
-              <i class="fab fa-github mx-2 fa-lg"></i>
-            </a>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/5f3e9f1a1e7ade5df4428fc4/default";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
 
-            <a
-              href="https://www.youtube.com/channel/UCrJuJ4Z9J-FuzYf4TyMOg7w"
-              target="_blank"
-            >
-              <i class="fab fa-youtube mx-2 fa-lg"></i>
-            </a>
-
-            <a href="https://www.udemy.com/user/devdigest/" target="_blank">
-              <i class="cib-udemy mx-2 fa-lg"></i>
-            </a>
-
-            <a href="https://www.instagram.com/devdigest/" target="_blank">
-              <i class="fab fa-instagram mx-2 fa-lg"></i>
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/clarence-online/"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin mx-2 fa-lg"></i>
-            </a>
-          </div>
-        </span>
-
-        <i class="fa fa-arrow-circle-down mt-3 mb-0"></i>
-      </div>
-    </header>
-
-    <main class="container">
-      <div class="row">
-        <!-- Start of Main First Row -->
-
-        <!-- First Column (card-1) -->
-        <div
-          id="card-1"
-          class="col-md-5 col-sm-12 my-4 mx-auto bg-white rounded"
-        >
-          <div class="p-4">
-            <h2 class="h4 fw-bold mb-3">Background</h2>
-
-            <p>
-              I'm an aspiring Full Stack Web Developer who loves everything
-              about the web and technology.
-            </p>
-            <p>
-              I've worked as a Data Entry Intern and Customer Service Technical
-              Support &amp; Sales. Currently a Freelance Web Developer, I.T
-              Officer, and an Online Content Creator for
-              <a href="https://linktr.ee/devdigest" target="_blank"
-                >devDigest Tutorials</a
-              >
-              (<a
-                href="https://www.youtube.com/channel/UCrJuJ4Z9J-FuzYf4TyMOg7w"
-                target="_blank"
-                >YouTube</a
-              >
-              &vert;
-              <a href="https://www.udemy.com/user/devdigest/" target="_blank"
-                >Udemy</a
-              >
-              &vert;
-              <a href="https://www.instagram.com/devdigest/" target="_blank"
-                >Instagram</a
-              >)
-            </p>
-
-            <p>
-              I'm a life-long learner who's always interested in expanding my
-              skills and excited to bring my life experiences to the process of
-              building minimalist and fantastic looking websites
-            </p>
-
-            <p>
-              My goal! is to increase my knowledge and improve my existing
-              skills and use it to build cross-platform applications with Google
-              Flutter.
-            </p>
-
-            <p class="small">
-              CompTIA Linux+ Certified &amp; Linux Professional Institute
-              (LPIC-1) Certified.
-            </p>
-          </div>
-        </div>
-
-        <!-- Second Column (card-2)-->
-        <div
-          id="card-2"
-          class="col-md-5 col-sm-12 my-4 mx-auto bg-white rounded"
-        >
-          <div class="p-4">
-            <h2 class="h4 fw-bold mb-3">Skills</h2>
-
-            <p>
-              I currently have abilities, knowledge and technical skills
-              in&colon;
-            </p>
-
-            <ul class="list-inline">
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-html-bg-color"
-              >
-                HTML
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-css-bg-color"
-              >
-                CSS
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-javascript-bg-color"
-              >
-                JavaScript
-              </li>
-              <li
-                style="background-color: #3178c6"
-                class="list-inline-item rounded p-2 text-white my-2"
-              >
-                Typescript
-              </li>
-              <li class="list-inline-item rounded p-2 bg-dark text-white my-2">
-                Deno.js
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-nodejs-bg-color"
-              >
-                Node.js
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-react-bg-color"
-              >
-                React
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-nextjs-bg-color"
-              >
-                Next.js
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-mongodb-bg-color"
-              >
-                Mongo DB
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-bootstrap-bg-color"
-              >
-                Bootstrap
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-wordpress-bg-color"
-              >
-                Wordpress
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-linux-bg-color"
-              >
-                Linux
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-Apache-bg-color"
-              >
-                Apache
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-nginx-bg-color"
-              >
-                Nginx
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-git-bg-color"
-              >
-                Git
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-sql-bg-color"
-              >
-                SQL
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-seo-bg-color"
-              >
-                SEO
-              </li>
-              <li
-                class="list-inline-item rounded p-2 text-white my-2"
-                id="skill-camtasia-bg-color"
-              >
-                Camtasia Studio
-              </li>
-            </ul>
-
-            <p>
-              I want to master the process of building complex web applications
-              by improving skills in
-              <span class="text-muted"
-                >MongoDB, Express JS, React, Node JS, and JavaScript</span
-              >.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- End of Main First Row -->
-
-      <div class="row">
-        <!-- Start of Main Second Row -->
-
-        <!-- One Column (card-3)-->
-        <div
-          id="card-3"
-          class="col-sm-12 col-md-11 my-4 mx-auto bg-white rounded"
-        >
-          <div class="p-4">
-            <h2 class="h4 fw-bold mb-3">Repos:</h2>
-            <ul class="list-group list-group-flush mb-5">
-              <li class="list-group-item">
-                <span class="me-2">💽</span>
-                <a
-                  href="https://github.com/clarnx/transpilyzer-online-repl"
-                  target="_blank"
-                  >transpilyzer-online-repl</a
-                >
-                An online REPL based on Babel for transpiling next generation
-                JavaScript in real-time
-              </li>
-              <li class="list-group-item">
-                <span class="me-3">🔋</span>
-                <a
-                  href="https://github.com/clarnx/hubtel-sms-nodejs-v1"
-                  target="_blank"
-                  >hubtel-sms-nodejs-v1</a
-                >
-                An open source Node.js SDK that allows you to access the Hubtel
-                Programmable SMS API from your Node.js application.
-              </li>
-              <li class="list-group-item">
-                <span class="me-2">⚡</span>
-                <a
-                  href="https://github.com/clarnx?tab=repositories"
-                  target="_blank"
-                  >more...</a
-                >
-              </li>
-            </ul>
-            <h2 class="h4 fw-bold mb-3">Cool Web Projects:</h2>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <a
-                  class="me-3"
-                  href="https://358bull.community/"
-                  target="_blank"
-                  >358bull Community</a
-                >
-                An NTF project website.
-              </li>
-              <li class="list-group-item">
-                <a
-                  class="me-3"
-                  href="https://www.aletheastudios.com/"
-                  target="_blank"
-                  >Alethea Studios</a
-                >
-                A digital marketing website.
-              </li>
-              <li class="list-group-item">
-                <a class="me-3" href="https://crikstudios.com/" target="_blank"
-                  >Crik Studios</a
-                >
-                A media studio website.
-              </li>
-              <li class="list-group-item">
-                <a
-                  class="me-3"
-                  href="https://www.freshinternationalmarine.com/"
-                  target="_blank"
-                  >Fresh International Marine</a
-                >
-                A logistics company website.
-              </li>
-              <li class="list-group-item">
-                <a
-                  class="me-3"
-                  href="https://chart.orientanalytics.com/"
-                  target="_blank"
-                  >Soundcloud Artists Followers Chart</a
-                >
-                A dashboard utility that displays a realtime chart of SoundCloud
-                Artists Followers.
-              </li>
-              <li class="list-group-item">
-                <a
-                  class="me-3"
-                  href="https://www.smarttouchtyping.com/"
-                  target="_blank"
-                  >Smart Touch Typing</a
-                >
-                A touch typing resource website for beginners.
-              </li>
-            </ul>
-          </div>
-          <!-- End of all content wraped in div for padding -->
-        </div>
-        <!-- End of One Column (card-3)-->
-      </div>
-      <!-- End of Main Second Row -->
-    </main>
-
-    <footer class="text-center text-muted mt-4">
-      <div class="py-2">
-        <a href="https://clarenceonline.github.io" target="_blank">
-          <i class="fas fa-globe-americas mx-2 fa-lg"></i>
-        </a>
-        <p class="my-0">
-          &copy;
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          , A.E Clarence
-        </p>
-        <small>
-          <em class="my-0">"Amor fati"</em>
-        </small>
-      </div>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/5f3e9f1a1e7ade5df4428fc4/default";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-    <!--End of Tawk.to Script-->
-  </body>
 </html>
