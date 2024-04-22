@@ -73,6 +73,11 @@ a img:hover {
   color: #000000 !important;
 }
 
+#skill-rust-bg-color {
+  background: #B7410E;
+  color: #000000 !important;
+}
+
 #skill-react-bg-color {
   background: #00D8FF;
   color: #000000 !important;
