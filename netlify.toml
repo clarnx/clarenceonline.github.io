@@ -1,5 +1,5 @@
 [[redirects]]
-from = "https://clarenceonline.dev/*"
-to = "https://hardwaretester.com/gamepad"
-status = 301
-force = true
+  from = "https://www.clarenceonline.dev/*"
+  to = "https://hardwaretester.com/gamepad/:splat"
+  status = 301
+  force = true
