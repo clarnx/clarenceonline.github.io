@@ -21,6 +21,12 @@
 #  status = 301
 #  force = true
 
+ [[redirects]]
+ from = "https://app.rustdigest.com/*"
+ to = "https://hardwaretester.com/gamepad"
+ status = 301
+ force = true
+
 # [[redirects]]
 #   from = "/*"
 #   to = "/index.html" 
