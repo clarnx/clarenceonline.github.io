@@ -9,6 +9,12 @@
 #   to = "https://hardwaretester.com/gamepad/dataset"
 #   status = 301
 #   force = true
+
+[[redirects]]
+ from = "https://www.rustdigest.com/*"
+ to = "https://hardwaretester.com/gamepad"
+ status = 301
+ force = true
   
 [[redirects]]
   from = "https://rustdigest.com/*"
@@ -16,11 +22,7 @@
   status = 301
   force = true
 
-[[redirects]]
- from = "https://www.rustdigest.com/*"
- to = "https://hardwaretester.com/gamepad"
- status = 301
- force = true
+
 
 [[redirects]]
   from = "/*"
