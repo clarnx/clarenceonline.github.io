@@ -11,20 +11,18 @@
 #   force = true
 
 [[redirects]]
- from = "https://www.rustdigest.com/*"
- to = "https://hardwaretester.com/gamepad"
- status = 301
- force = true
-  
-[[redirects]]
   from = "https://rustdigest.com/*"
   to = "https://hardwaretester.com/gamepad"
   status = 301
   force = true
 
-
-
 [[redirects]]
-  from = "/*"
-  to = "/index.html" 
-  status = 200
+ from = "https://www.rustdigest.com/*"
+ to = "https://hardwaretester.com/gamepad"
+ status = 301
+ force = true
+
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html" 
+#   status = 200
