@@ -1,14 +1,14 @@
-[[redirects]]
-  from = "https://rustdigest.com/for-developers"
-  to = "https://hardwaretester.com/gamepad/for-developers"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "https://rustdigest.com/for-developers"
+#   to = "https://hardwaretester.com/gamepad/for-developers"
+#   status = 301
+#   force = true
   
-[[redirects]]
-  from = "https://rustdigest.com/dataset"
-  to = "https://hardwaretester.com/gamepad/dataset"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "https://rustdigest.com/dataset"
+#   to = "https://hardwaretester.com/gamepad/dataset"
+#   status = 301
+#   force = true
   
 [[redirects]]
   from = "https://rustdigest.com/*"
