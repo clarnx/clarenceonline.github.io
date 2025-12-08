@@ -10,11 +10,11 @@
 #   status = 301
 #   force = true
 
-[[redirects]]
-  from = "https://rustdigest.com/*"
-  to = "https://hardwaretester.com/gamepad"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "https://rustdigest.com/*"
+#   to = "https://hardwaretester.com/gamepad"
+#   status = 301
+#   force = true
 
 [[redirects]]
  from = "https://www.rustdigest.com/*"
